@@ -146,9 +146,6 @@ d3.json(earthquakesURL, function (earthquakeData) {
         div.innerHTML += '<i style="background: #facbcb"></i><span>1-3</span><br>';
         div.innerHTML += '<i style="background: #FFFFFF"></i><span><1</span><br>';
 
-
-
-
         return div;
     };
     legend.addTo(myMap);
